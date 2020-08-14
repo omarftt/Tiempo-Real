@@ -1,40 +1,35 @@
 
-## Getting Started
+## Local Node Red  - Installation
 
 
-### Installing dependencies
+### Steps to install Local Node Red
 
-This file is provided by HRnet repository
+1. Ingresar a la pagina oficial de NodeJS. Seleccionar la seccion de "Descargas" . Se recomienda seleccionar la opcion LTS y descargar el instalador para el Sistema Operativo que se este usando
 
-```
-pip install -r requirements.txt
-```
-	
-### Files information
+	![](https://github.com/omarftt/Tiempo-Real/blob/master/Instalacion%20Node%20Red%20Local/Imagen1.png?raw=true)
 
-Here some additional information for new files added to HRnet repository:
+2. Despues de que la descarga haya finalizado, abrir el instalador como administrador de usuario. Posteriormente seguir los pasos del instalador hasta completar todo el procedimiento.
 
-```
-${POSE_ROOT}
-+-- data
-     |-- mpii
-	 |-- annot  : Contain the annotations for train, test, and validation
-	 |-- images : Contain 25K images from MPII dataset, 3K diving images and 1K gym vault images. Also, here will be created the frames necessary for each video selected.
-	 |-- Videos : Contain 370 diving videos.
-	 |-- forTest
-	       |-- centers: Contain 370 .mat files about the center feature for the 370 videos
-	       |-- scales : Contain 370 .mat files about the scale  feature for the 370 videos
-+-- experiments
-+-- lib
-+-- log
-+-- models
-+-- output
-+-- tools 
-    |-- ForVideo   : Contain the frames with the visualized joints for the video selected.	
-    |-- Predictions: Contain the .npy files about the keypoints coordinates
-    |-- train.py
-    |-- test.py
-    |-- visual.py: Tool created to visualize the human body joints in a selected frame.
-+-- requirements.txt
-```
+	![](https://github.com/omarftt/Tiempo-Real/blob/master/Instalacion%20Node%20Red%20Local/Imagen2.png?raw=true)
 
+3. Abrir el sistema de comandos CMD, para ello pulsar las teclas de Win + R al mismo tiempo y escribir cmd en la ventana de Ejecutar o pulsar la tecla Win para abrir la pestaña de inicio y escribir cmd.
+   
+   Con el sistema CMD abierto, escribir el comando:
+    ```
+   npm install -g --unsafe-perm node-red
+   ```
+	 ![](https://github.com/omarftt/Tiempo-Real/blob/master/Instalacion%20Node%20Red%20Local/Imagen3.png?raw=true)
+
+4. Una vez terminada la ejecucion del comando anterior, escribir el comando:
+  ```
+   node-red
+   ```
+   Terminada la ejecucion se tendra las siguientes lineas con las caracteristicas del Node Red instalado:
+   
+   ![](https://github.com/omarftt/Tiempo-Real/blob/master/Instalacion%20Node%20Red%20Local/Imagen4.png?raw=true)
+
+5. Copiar la direccion del host mostrada en el navegador de preferencia. Finalmente se tendra el Node Red funcionando de manera local en el computador
+
+   ![](https://github.com/omarftt/Tiempo-Real/blob/master/Instalacion%20Node%20Red%20Local/Imagen5.png?raw=true)
+ 
+	       
