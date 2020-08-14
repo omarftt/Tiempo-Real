@@ -21,7 +21,7 @@ El proyecto utiliza el protocolo abierto MQTT para comunicar un Node Red Local i
 
 5. Comprobar el envio y recepcion de datos entre el entorno local y el virtual.
 
-6. Visualizar los valores de la planta en el dashboard creado. Para el presente proyecto se tiene el siguiente  [Link](http://fideltitonode-red.mybluemix.net/ui/) creado.
+6. Visualizar los valores de la planta en el dashboard creado. Para el presente proyecto se tiene el siguiente  [Link](http://fideltitonode-red.mybluemix.net/ui/)
 
 ![](https://github.com/omarftt/Tiempo-Real/blob/master/Figura/Imagen3.PNG?raw=true)
 
