@@ -11,17 +11,17 @@ El proyecto utiliza el protocolo abierto MQTT para comunicar un Node Red Local i
 ![](https://github.com/omarftt/Tiempo-Real/blob/master/Figura/Imagen1.PNG?raw=true)
 
 ## Quick Start
-1. Descargar el codigo Java incluido en el repositorio de Github. Inspeccionar el codigo, cambiar los valores y parametros a conveniencia, cambiar el PATH de la ubicacion del archivo .txt del cual se leeran los datos.
+1. Descargar el codigo Java incluido en el repositorio de Github. Inspeccionar el  [Codigo Java](https://github.com/omarftt/Tiempo-Real/tree/master/Control%20%20Tanque-%20Codigo%20Java), cambiar los valores y parametros a conveniencia, cambiar el PATH de la ubicacion del archivo .txt del cual se leeran los datos.
 
-1. Seguir los pasos de instalacion de [Node Red Local](https://github.com/omarftt/Tiempo-Real/tree/master/Instalacion%20Node%20Red%20Local) y [Node Red vinculado a IBM Cloud](https://github.com/omarftt/Tiempo-Real/tree/master/Instalacion%20Node%20Red%20-%20Bluemix)
+2. Seguir los pasos de instalacion de [Node Red Local](https://github.com/omarftt/Tiempo-Real/tree/master/Instalacion%20Node%20Red%20Local) y [Node Red vinculado a IBM Cloud](https://github.com/omarftt/Tiempo-Real/tree/master/Instalacion%20Node%20Red%20-%20Bluemix)
 
-2. Programar los editores de los Node Red para el envio y recepcion de datos por protocolo MQTT . Programar el editor de Node Red local para la lectura de archivos .txt con la ubicacion del archivo programada en el codigo Java.
+3. Programar los editores de los Node Red para el envio y recepcion de datos por protocolo MQTT . Programar el editor de Node Red local para la lectura de archivos .txt con la ubicacion del archivo programada en el codigo Java.
 
-3. Adquirir un broker MQTT e ingresar el servidor en la configuracion de los nodos MQTT de ambos Node Red
+4. Adquirir un broker MQTT e ingresar el servidor en la configuracion de los nodos MQTT de ambos Node Red
 
-4. Comprobar el envio y recepcion de datos entre el entorno local y el virtual.
+5. Comprobar el envio y recepcion de datos entre el entorno local y el virtual.
 
-5. Visualizar los valores de la planta en el siguiente [Dashboard](http://fideltitonode-red.mybluemix.net/ui/) creado.
+6. Visualizar los valores de la planta en el siguiente [Dashboard](http://fideltitonode-red.mybluemix.net/ui/) creado.
 
 ![](https://github.com/omarftt/Tiempo-Real/blob/master/Figura/Imagen3.PNG?raw=true)
 
